@@ -9,7 +9,7 @@ type AboutSectionProps = ComponentProps<'section'>
 export function AboutSection(props: AboutSectionProps) {
   return (
     <section
-      className="relative flex flex-col-reverse bg-brandBlue900 py-16 lg:flex-col lg:pb-0 lg:pt-0"
+      className="relative flex flex-col-reverse bg-brandBlue900 bg-scroll py-16 lg:flex-col lg:pb-0 lg:pt-0"
       {...props}
     />
   )
