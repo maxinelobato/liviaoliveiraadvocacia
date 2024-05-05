@@ -27,7 +27,7 @@ export function ImgLivia() {
       <Image
         alt="Imagem"
         src={AboutLivia}
-        loading="lazy"
+        priority
         className="h-72 w-full rounded-xl object-cover shadow-lg md:h-96 lg:h-full lg:rounded-none lg:shadow-none"
         sizes='"(max-width: 768px) 100vw,
           (max-width: 1200px) 50vw,
