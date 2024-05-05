@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import LogoLiviaHero from '../../../../public/logo-livia.png'
-import AboutLivia from '../../../../public/img3.jpg'
+import AboutLivia from '../../../../public/img3.webp'
 
 export function ImgLogoLivia() {
   return (
