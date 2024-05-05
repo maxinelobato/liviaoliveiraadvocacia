@@ -44,7 +44,6 @@ export function Hero() {
               <IconWtp icon={WhatsappLogo} />
             </ButtonHomeFlex>
           </ButtonHome>
-
           <StarRating />
         </HeroSectionProperty>
       </HeroSectionRoot>
