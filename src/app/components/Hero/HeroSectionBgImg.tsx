@@ -10,7 +10,7 @@ export function HeroSectionBgImg() {
         sizes='"(max-width: 768px) 100vw,
         (max-width: 1200px) 50vw,
         33vw"'
-        priority
+        loading="lazy"
         fill
         className="h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover"
       />
