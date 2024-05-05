@@ -27,8 +27,6 @@ export function ImgLivia() {
       <Image
         alt="Imagem"
         src={AboutLivia}
-        width={372}
-        height={288}
         loading="lazy"
         rel="preload"
         className="h-72 w-full rounded-xl object-cover shadow-lg md:h-96 lg:h-full lg:rounded-none lg:shadow-none"
