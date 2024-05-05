@@ -114,6 +114,7 @@ export function SocialProve() {
                   width={45}
                   height={45}
                   src={item.imgURL}
+                  loading="lazy"
                   className="size-14 rounded-full object-cover"
                 />
                 <SocialProveDiv>
