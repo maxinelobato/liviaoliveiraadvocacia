@@ -5,7 +5,7 @@ import { IconWtpFloat } from '../Icons/IconWtpFloat'
 export function ButtonFloatWttp() {
   return (
     <>
-      <ButtonFloat href="https://api.whatsapp.com/send?phone=94992659199&text=Ol%C3%A1%2C%20Aurely!%20Vim%20pelo%20site%20e%20preciso%20de%20ajuda%20na%20minha%20Empresa.%20Podemos%20conversar%3F%20">
+      <ButtonFloat href="https://api.whatsapp.com/send?phone=5531992258880&text=Ol%C3%A1,%20tudo%20bem?%20Preciso%20falar%20com%20um%20Advogado%20Especialista%20em%20Direito%20Previdenci%C3%A1rio.%20Pode%20me%20ajudar?">
         <IconWtpFloat icon={WhatsappLogo} />
       </ButtonFloat>
     </>
