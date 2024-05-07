@@ -7,20 +7,22 @@ import { StarRating } from '../Icons/StarRating'
 import { IconWtp } from '../Icons/IconWtp'
 import {
   HeroDivide,
+  HeroSectionBgImage,
   HeroSectionH1,
   HeroSectionParagraph,
   HeroSectionParagraphStrong,
   HeroSectionProperty,
   HeroSectionRoot,
 } from './HeroComponents'
-import { HeroSectionBgImg } from './HeroSectionBgImg'
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
+import { ImgBgImage } from '../Image'
 
 export function Hero() {
   return (
     <>
       <HeroSectionRoot>
-        <HeroSectionBgImg />
+        <ImgBgImage />
+        <HeroSectionBgImage />
         <HeroSectionProperty>
           <HeroSectionH1>advogada previdenciária</HeroSectionH1>
           <HeroSectionParagraph>

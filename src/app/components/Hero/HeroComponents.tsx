@@ -4,6 +4,17 @@ export interface HeroSectionProps {
   className: string
 }
 
+type HeroSectionBgImageProps = ComponentProps<'div'>
+
+export function HeroSectionBgImage(props: HeroSectionBgImageProps) {
+  return (
+    <div
+      className="absolute h-full w-full bg-gradient-to-r from-brandBlue900/90 from-40% to-brandBlue500/45 to-90% p-6 md:p-12 lg:px-16 lg:py-12"
+      {...props}
+    />
+  )
+}
+
 type HeroSectionRootProps = ComponentProps<'section'>
 
 export function HeroSectionRoot(props: HeroSectionRootProps) {

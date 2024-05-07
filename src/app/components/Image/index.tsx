@@ -1,6 +1,22 @@
 import Image from 'next/image'
 import LogoLiviaHero from '../../../../public/logo-livia.png'
 import AboutLivia from '../../../../public/img3.webp'
+import bgImage from '../../../../public/bgImage.avif'
+
+export function ImgBgImage() {
+  return (
+    <>
+      <Image
+        src={bgImage}
+        alt="BgImage"
+        sizes="100vw"
+        priority
+        fill
+        className="h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover"
+      />
+    </>
+  )
+}
 
 export function ImgLogoLivia() {
   return (
