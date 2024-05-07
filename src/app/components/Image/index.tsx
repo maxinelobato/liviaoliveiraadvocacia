@@ -10,7 +10,7 @@ export function ImgLogoLivia() {
         src={LogoLiviaHero}
         width={180}
         height={100}
-        priority
+        loading="lazy"
         className="w-48 md:w-auto lg:w-52"
         sizes='"(max-width: 768px) 100vw,
           (max-width: 1200px) 50vw,
