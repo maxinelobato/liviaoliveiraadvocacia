@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import LogoLiviaHero from '../../../../public/logo-livia.png'
-import AboutLivia from '../../../../public/img3.webp'
-// import bgImage from '../../../../public/bgImage.avif'
+import LogoLiviaHero from '../../../../public/img/logo-livia.png'
+import AboutLivia from '../../../../public/img/img3.webp'
 
 export function ImgBgImage() {
   return (
