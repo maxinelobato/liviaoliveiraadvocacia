@@ -9,6 +9,7 @@ export function ImgBgImage() {
       alt="BgImage"
       width={500}
       height={500}
+      quality={100}
       sizes="100vw"
       priority
       fill
