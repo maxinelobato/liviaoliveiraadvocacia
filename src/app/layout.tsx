@@ -6,10 +6,9 @@ import Script from 'next/script'
 const GTM_ID = 'GTM-TXRH9SS5'
 
 const montserrat = Montserrat({
-  subsets: ['latin', 'latin-ext', 'cyrillic', 'cyrillic-ext', 'vietnamese'],
+  subsets: ['latin', 'latin-ext'],
   display: 'swap',
-  style: ['normal', 'italic'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  style: ['normal'],
 })
 
 export const metadata: Metadata = {
