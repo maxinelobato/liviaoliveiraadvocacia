@@ -9,6 +9,7 @@ export function ImgBgImage() {
       alt="BgImage"
       quality={100}
       sizes="100vw"
+      priority
       fill
       className="h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover"
     />
