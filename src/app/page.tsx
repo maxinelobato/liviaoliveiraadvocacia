@@ -1,4 +1,4 @@
-import { About } from './components/About'
+// import { About } from './components/About'
 import { Benefits } from './components/Benefits'
 import { ButtonFloatWttp } from './components/Buttons'
 import { Card } from './components/Cards'
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <About />
+      {/* <About /> */}
       <BgGradientColor>
         <Card />
         <Benefits />
