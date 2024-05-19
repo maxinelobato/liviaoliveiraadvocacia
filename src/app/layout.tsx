@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="sr">
-      <body className={`${montserrat.className} scroll-smooth antialiased`}>
+      <body className={`${montserrat.className} antialiased`}>
         <main>{children}</main>
       </body>
     </html>
