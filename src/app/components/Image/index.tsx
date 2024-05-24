@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import LogoLiviaHero from '../../../../public/logo-livia.png'
-import AboutLivia from '../../../../public/liviaimg.webp'
+import AboutLivia from '../../../../public/liviaimg.avif'
 import BgImage from '../../../../public/bgImage.avif'
 
 export function ImgBgImage() {
@@ -44,9 +44,11 @@ export function ImgLivia() {
         src={AboutLivia}
         className="h-72 w-full rounded-xl object-cover shadow-lg md:h-96 lg:h-full lg:rounded-none lg:shadow-none"
         loading="lazy"
-        rel="preload"
         width={1080}
         height={1080}
+        sizes='"(max-width: 768px) 100vw,
+        (max-width: 1200px) 50vw,
+        33vw"'
       />
     </>
   )
