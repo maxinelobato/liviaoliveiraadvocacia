@@ -11,7 +11,7 @@ const config: Config = {
         brandWts: '#006400',
       },
       fontFamily: {
-        sans: ['var(--font-montserrat)'],
+        sans: 'var(--font-montserrat)',
       },
     },
   },
