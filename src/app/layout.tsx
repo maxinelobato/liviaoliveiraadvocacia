@@ -23,8 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="sr">
-      <GoogleTagManager gtmId="GTM-KVN3F3HK" />
       <body className={`${montserrat.className} antialiased`}>
+        <GoogleTagManager gtmId="GTM-KVN3F3HK" />
         <main>{children}</main>
       </body>
     </html>
