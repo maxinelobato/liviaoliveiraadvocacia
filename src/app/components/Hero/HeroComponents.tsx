@@ -27,7 +27,7 @@ export function HeroSectionProperty(props: HeroSectionPropertyProps) {
   return (
     <div className="mx-auto py-12 sm:max-w-xl md:max-w-full md:px-20 lg:max-w-6xl lg:px-4 lg:py-24">
       <div className="flex flex-col items-center justify-between xl:flex-row">
-        <div className="z-40 mb-0 w-full max-w-6xl p-4 xl:w-8/12" {...props} />
+        <div className="z-50 mb-0 w-full max-w-6xl p-4 xl:w-8/12" {...props} />
       </div>
     </div>
   )
@@ -39,7 +39,7 @@ export function HeroSectionH1(props: HeroSectionH1Props) {
   return (
     <h1
       style={{ textShadow: '0px 0px 2px #000000' }}
-      className="z-40 mb-6 text-center text-3xl font-extrabold uppercase text-white sm:text-left sm:text-5xl md:mx-auto"
+      className="z-50 mb-6 text-center text-3xl font-extrabold uppercase text-white sm:text-left sm:text-5xl md:mx-auto"
       {...props}
     />
   )
@@ -48,7 +48,7 @@ export function HeroSectionH1(props: HeroSectionH1Props) {
 type HeroSectionSpanProps = ComponentProps<'span'>
 
 export function HeroSectionSpan(props: HeroSectionSpanProps) {
-  return <span className="text-brandGreyBlue z-40 sm:block" {...props} />
+  return <span className="text-brandGreyBlue z-50 sm:block" {...props} />
 }
 
 type HeroSectionParagraphProps = ComponentProps<'p'>
@@ -56,7 +56,7 @@ type HeroSectionParagraphProps = ComponentProps<'p'>
 export function HeroSectionParagraph(props: HeroSectionParagraphProps) {
   return (
     <p
-      className="z-40 text-center text-sm font-semibold text-white/85 sm:text-left sm:text-lg md:block"
+      className="z-50 text-center text-sm font-semibold text-white/85 sm:text-left sm:text-lg md:block"
       {...props}
     />
   )
@@ -69,7 +69,7 @@ export function HeroSectionParagraphStrong(
 ) {
   return (
     <p
-      className="z-40 text-center text-sm font-black text-white sm:text-left sm:text-lg md:block"
+      className="z-50 text-center text-sm font-black text-white sm:text-left sm:text-lg md:block"
       {...props}
     />
   )
@@ -79,9 +79,9 @@ type HeroImageProps = ComponentProps<'div'>
 
 export function HeroImage(props: HeroImageProps) {
   return (
-    <div className="z-40 mx-auto max-w-5xl">
-      <div className="z-40 flex justify-center sm:flex-none sm:justify-start">
-        <div className="z-40 -mt-10 block pb-8" {...props} />
+    <div className="z-50 mx-auto max-w-5xl">
+      <div className="z-50 flex justify-center sm:flex-none sm:justify-start">
+        <div className="z-50 -mt-10 block pb-8" {...props} />
       </div>
     </div>
   )
