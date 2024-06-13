@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
 import './globals.css'
 import { GoogleTagManager } from '@next/third-parties/google'
+import { ButtonFloatWttp } from './components/Buttons'
 
 const montserrat = Montserrat({
   subsets: ['latin', 'latin-ext'],
@@ -33,7 +34,10 @@ export default function RootLayout({
             style={{ display: 'none', visibility: 'hidden' }}
           ></iframe>
         </noscript>
-        <main>{children}</main>
+        <main>
+          {children}
+          <ButtonFloatWttp />
+        </main>
       </body>
     </html>
   )
