@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <About />
       <BgGradientColor>
         <Card />
         <Benefits />
+        <About />
         <SocialProve />
       </BgGradientColor>
       <Footer />
