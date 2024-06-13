@@ -23,8 +23,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="sr">
+      <GoogleTagManager gtmId="GTM-KVN3F3HK" />
       <body className={`${montserrat.className} antialiased`}>
-        <GoogleTagManager gtmId="GTM-KVN3F3HK" />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-KVN3F3HK"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
         <main>{children}</main>
       </body>
     </html>
