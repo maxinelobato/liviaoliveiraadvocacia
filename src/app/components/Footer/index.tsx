@@ -56,7 +56,7 @@ export function Footer() {
                     <FooterButtonAnchor
                       onClick={() =>
                         sendGTMEvent({
-                          event: 'buttonClicked',
+                          event: 'buttonWhatsapp',
                           value: 'whatsapp',
                         })
                       }
@@ -79,7 +79,7 @@ export function Footer() {
                     <FooterButtonAnchor
                       onClick={() =>
                         sendGTMEvent({
-                          event: 'buttonClicked',
+                          event: 'buttonEmail',
                           value: 'mailto',
                         })
                       }
