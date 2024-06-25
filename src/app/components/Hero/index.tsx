@@ -1,4 +1,3 @@
-'use client'
 import {
   ButtonHome,
   ButtonHomeFlex,
@@ -17,7 +16,6 @@ import {
 } from './HeroComponents'
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 import { ImgBgImage } from '../Image'
-import { sendGTMEvent } from '@next/third-parties/google'
 
 export function Hero() {
   return (
@@ -42,12 +40,7 @@ export function Hero() {
             Atendimento em Todas as Regiões de Belo Horizonte/MG
           </HeroSectionParagraph>
 
-          <ButtonHome
-            onClick={() =>
-              sendGTMEvent({ event: 'buttonWhatsapp', value: 'whatsapp' })
-            }
-            href="https://api.whatsapp.com/send?phone=5531992258880&text=Ol%C3%A1,%20tudo%20bem?%20Preciso%20falar%20com%20um%20Advogado%20Especialista%20em%20Direito%20Previdenci%C3%A1rio.%20Pode%20me%20ajudar?"
-          >
+          <ButtonHome href="https://api.whatsapp.com/send?phone=5531992258880&text=Ol%C3%A1,%20tudo%20bem?%20Preciso%20falar%20com%20um%20Advogado%20Especialista%20em%20Direito%20Previdenci%C3%A1rio.%20Pode%20me%20ajudar?">
             <ButtonHomeText>clique e fale comigo</ButtonHomeText>
             <ButtonHomeFlex>
               <IconWtp icon={WhatsappLogo} />

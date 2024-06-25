@@ -1,4 +1,3 @@
-'use client'
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 import { IconCardProperty } from '../Icons/IconCard'
 import { IconCardWtp } from '../Icons/IconCardWtp'
@@ -18,7 +17,6 @@ import {
   CardListDiv,
   CardListH1,
 } from './CardComponents'
-import { sendGTMEvent } from '@next/third-parties/google'
 
 export function CardsCollection() {
   const features = [
@@ -204,12 +202,7 @@ export function CardsCollection() {
             </CardGridUl>
           </CardGridDiv>
           <CardButtonProperty>
-            <CardButtonAnchor
-              onClick={() =>
-                sendGTMEvent({ event: 'buttonWhatsapp', value: 'whatsapp' })
-              }
-              href="https://api.whatsapp.com/send?phone=5531992258880&text=Ol%C3%A1,%20tudo%20bem?%20Preciso%20falar%20com%20um%20Advogado%20Especialista%20em%20Direito%20Previdenci%C3%A1rio.%20Pode%20me%20ajudar?"
-            >
+            <CardButtonAnchor href="https://api.whatsapp.com/send?phone=5531992258880&text=Ol%C3%A1,%20tudo%20bem?%20Preciso%20falar%20com%20um%20Advogado%20Especialista%20em%20Direito%20Previdenci%C3%A1rio.%20Pode%20me%20ajudar?">
               <CardButtonFlex>
                 <CardButtonText>Saiba mais</CardButtonText>
                 <IconCardWtp icon={WhatsappLogo} />

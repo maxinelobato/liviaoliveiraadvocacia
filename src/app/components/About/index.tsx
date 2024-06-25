@@ -1,4 +1,3 @@
-'use client'
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 import {
   ButtonHome,
@@ -20,7 +19,6 @@ import {
   AboutSection,
   AboutTextProperty,
 } from './AboutComponents'
-import { sendGTMEvent } from '@next/third-parties/google'
 
 export function About() {
   return (
@@ -50,12 +48,7 @@ export function About() {
             </AboutParagraphArticleTwo>
           </AboutArticle>
           <AboutDivFlexItens>
-            <ButtonHome
-              onClick={() =>
-                sendGTMEvent({ event: 'buttonWhatsapp', value: 'whatsapp' })
-              }
-              href="https://api.whatsapp.com/send?phone=5531992258880&text=Ol%C3%A1,%20tudo%20bem?%20Preciso%20falar%20com%20um%20Advogado%20Especialista%20em%20Direito%20Previdenci%C3%A1rio.%20Pode%20me%20ajudar?"
-            >
+            <ButtonHome href="https://api.whatsapp.com/send?phone=5531992258880&text=Ol%C3%A1,%20tudo%20bem?%20Preciso%20falar%20com%20um%20Advogado%20Especialista%20em%20Direito%20Previdenci%C3%A1rio.%20Pode%20me%20ajudar?">
               <ButtonHomeText>clique e fale comigo</ButtonHomeText>
               <ButtonHomeFlex>
                 <IconWtp icon={WhatsappLogo} />
