@@ -1,31 +1,43 @@
-// import { About } from './components/About'
-// import { Benefits } from './components/Benefits'
-// import { Card } from './components/Cards'
-// import { Footer } from './components/Footer'
-// import { Hero } from './components/Hero'
-// import { SocialProve } from './components/SocialProve'
 import { BgGradientColor } from './components/SectionColor/BgGradient'
 import dynamic from 'next/dynamic'
 
-const DynamicHero = dynamic<{ ssr: false }>(() =>
-  import('./components/Hero/index').then((module) => module.Hero),
+const DynamicHero = dynamic(
+  () => import('./components/Hero/index').then((module) => module.Hero),
+  {
+    ssr: false,
+  },
 )
-const DynamicCard = dynamic<{ ssr: false }>(() =>
-  import('./components/Cards/index').then((module) => module.Card),
+const DynamicCard = dynamic(
+  () => import('./components/Cards/index').then((module) => module.Card),
+  {
+    ssr: false,
+  },
 )
-const DynamicBenefits = dynamic<{ ssr: false }>(() =>
-  import('./components/Benefits/index').then((module) => module.Benefits),
+const DynamicBenefits = dynamic(
+  () => import('./components/Benefits/index').then((module) => module.Benefits),
+  {
+    ssr: false,
+  },
 )
-const DynamicAbout = dynamic<{ ssr: false }>(() =>
-  import('./components/About/index').then((module) => module.About),
+const DynamicAbout = dynamic(
+  () => import('./components/About/index').then((module) => module.About),
+  {
+    ssr: false,
+  },
 )
-const DynamicSocialProve = dynamic<{ ssr: false }>(() =>
-  import('./components/SocialProve/index').then((module) => module.SocialProve),
+const DynamicSocialProve = dynamic(
+  () =>
+    import('./components/SocialProve/index').then(
+      (module) => module.SocialProve,
+    ),
+  {
+    ssr: false,
+  },
 )
-const DynamicFooter = dynamic<{ ssr: false }>(
+const DynamicFooter = dynamic(
   () => import('./components/Footer/index').then((module) => module.Footer),
   {
-    loading: () => <p>Loading...</p>,
+    ssr: false,
   },
 )
 
@@ -33,13 +45,13 @@ export default function Home() {
   return (
     <>
       <BgGradientColor>
-        <DynamicHero ssr={false} />
-        <DynamicCard ssr={false} />
-        <DynamicBenefits ssr={false} />
-        <DynamicAbout ssr={false} />
-        <DynamicSocialProve ssr={false} />
+        <DynamicHero />
+        <DynamicCard />
+        <DynamicBenefits />
+        <DynamicAbout />
+        <DynamicSocialProve />
       </BgGradientColor>
-      <DynamicFooter ssr={false} />
+      <DynamicFooter />
     </>
   )
 }
