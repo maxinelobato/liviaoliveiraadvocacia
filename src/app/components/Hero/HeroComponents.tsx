@@ -48,7 +48,7 @@ export function HeroSectionH1(props: HeroSectionH1Props) {
 type HeroSectionSpanProps = ComponentProps<'span'>
 
 export function HeroSectionSpan(props: HeroSectionSpanProps) {
-  return <span className="text-brandGreyBlue z-50 sm:block" {...props} />
+  return <span className="z-50 text-yellow-100 sm:block" {...props} />
 }
 
 type HeroSectionParagraphProps = ComponentProps<'p'>
@@ -69,7 +69,7 @@ export function HeroSectionParagraphStrong(
 ) {
   return (
     <p
-      className="z-50 text-center text-sm font-black text-white sm:text-left sm:text-lg md:block"
+      className="z-50 text-center text-sm font-extrabold text-yellow-100 sm:text-left sm:text-lg md:block"
       {...props}
     />
   )

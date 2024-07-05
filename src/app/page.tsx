@@ -1,31 +1,31 @@
 import { BgGradientColor } from './components/SectionColor/BgGradient'
 import dynamic from 'next/dynamic'
 
-const DynamicHero = dynamic(
+const Hero = dynamic(
   () => import('./components/Hero/index').then((module) => module.Hero),
   {
     ssr: false,
   },
 )
-const DynamicCard = dynamic(
+const Card = dynamic(
   () => import('./components/Cards/index').then((module) => module.Card),
   {
     ssr: false,
   },
 )
-const DynamicBenefits = dynamic(
+const Benefits = dynamic(
   () => import('./components/Benefits/index').then((module) => module.Benefits),
   {
     ssr: false,
   },
 )
-const DynamicAbout = dynamic(
+const About = dynamic(
   () => import('./components/About/index').then((module) => module.About),
   {
     ssr: false,
   },
 )
-const DynamicSocialProve = dynamic(
+const SocialProve = dynamic(
   () =>
     import('./components/SocialProve/index').then(
       (module) => module.SocialProve,
@@ -34,7 +34,19 @@ const DynamicSocialProve = dynamic(
     ssr: false,
   },
 )
-const DynamicFooter = dynamic(
+const Stats = dynamic(
+  () => import('./components/Stats/index').then((module) => module.Stats),
+  {
+    ssr: false,
+  },
+)
+const Faq = dynamic(
+  () => import('./components/Faq/index').then((module) => module.Faq),
+  {
+    ssr: false,
+  },
+)
+const Footer = dynamic(
   () => import('./components/Footer/index').then((module) => module.Footer),
   {
     ssr: false,
@@ -45,13 +57,15 @@ export default function Home() {
   return (
     <>
       <BgGradientColor>
-        <DynamicHero />
-        <DynamicCard />
-        <DynamicBenefits />
-        <DynamicAbout />
-        <DynamicSocialProve />
+        <Hero />
+        <Card />
+        <Benefits />
+        <About />
+        <Stats />
+        <SocialProve />
+        <Faq />
       </BgGradientColor>
-      <DynamicFooter />
+      <Footer />
     </>
   )
 }

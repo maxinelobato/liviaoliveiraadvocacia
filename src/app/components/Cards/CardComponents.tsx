@@ -37,7 +37,7 @@ export function CardParagraph(props: CardParagraphProps) {
 type CardSpanProps = ComponentProps<'span'>
 
 export function CardSpan(props: CardSpanProps) {
-  return <span className="font-black text-white sm:block" {...props} />
+  return <span className="font-black text-yellow-100 sm:block" {...props} />
 }
 
 type CardGridProps = ComponentProps<'div'>
@@ -62,7 +62,7 @@ type CardGridH1Props = ComponentProps<'h1'>
 export function CardGridH1(props: CardGridH1Props) {
   return (
     <h1
-      className="mb-4 mt-4 text-center text-xl font-semibold text-white"
+      className="mb-4 mt-4 text-center text-xl font-semibold text-brandBlue500"
       {...props}
     />
   )
@@ -77,12 +77,7 @@ export function CardGridParagraph(props: CardGridParagraphProps) {
 type CardGridBgProps = ComponentProps<'div'>
 
 export function CardGridBg(props: CardGridBgProps) {
-  return (
-    <div
-      className="rounded-lg border border-white/20 bg-white/20 p-8 shadow-lg"
-      {...props}
-    />
-  )
+  return <div className="rounded-lg bg-yellow-100 p-8 shadow-lg" {...props} />
 }
 
 type CardGridDivProps = ComponentProps<'div'>
@@ -177,7 +172,10 @@ type CardListH1Props = ComponentProps<'h1'>
 
 export function CardListH1(props: CardListH1Props) {
   return (
-    <h1 className="text-base font-normal leading-loose text-white" {...props} />
+    <h1
+      className="text-base font-medium leading-loose text-brandBlue500"
+      {...props}
+    />
   )
 }
 

@@ -37,7 +37,7 @@ export function CardBenefitsParagraph(props: CardBenefitsParagraphProps) {
 type CardBenefitsSpanProps = ComponentProps<'span'>
 
 export function CardBenefitsSpan(props: CardBenefitsSpanProps) {
-  return <span className="font-black text-white sm:block" {...props} />
+  return <span className="font-black text-yellow-100 sm:block" {...props} />
 }
 
 type CardBenefitsGridProps = ComponentProps<'div'>
@@ -62,7 +62,7 @@ type CardBenefitsGridH1Props = ComponentProps<'h1'>
 export function CardBenefitsGridH1(props: CardBenefitsGridH1Props) {
   return (
     <h1
-      className="mb-4 mt-4 text-center text-xl font-semibold text-white"
+      className="mb-4 mt-4 text-center text-xl font-semibold text-brandBlue500"
       {...props}
     />
   )
@@ -79,12 +79,7 @@ export function CardBenefitsGridParagraph(
 type CardBenefitsGridBgProps = ComponentProps<'div'>
 
 export function CardBenefitsGridBg(props: CardBenefitsGridBgProps) {
-  return (
-    <div
-      className="rounded-lg border border-white/20 bg-white/20 p-8 shadow-lg"
-      {...props}
-    />
-  )
+  return <div className="rounded-lg bg-yellow-100 p-8 shadow-lg" {...props} />
 }
 
 type CardBenefitsGridDivProps = ComponentProps<'div'>

@@ -35,7 +35,7 @@ export function SocialProveH1(props: SocialProveH1Props) {
 type SocialProveSpanProps = ComponentProps<'span'>
 
 export function SocialProveSpan(props: SocialProveSpanProps) {
-  return <span className="font-black text-white sm:block" {...props} />
+  return <span className="font-black text-yellow-100 sm:block" {...props} />
 }
 
 type SocialProveParagraphProps = ComponentProps<'p'>
@@ -69,7 +69,7 @@ export function SocialProveBlockMapIdx(props: SocialProveBlockMapIdxProps) {
   return (
     <div className="mb-8 sm:break-inside-avoid">
       <blockquote
-        className="rounded-lg border border-white/20 bg-white/20 p-6 shadow-lg sm:p-8"
+        className="rounded-lg bg-yellow-100 p-6 shadow-lg sm:p-8"
         {...props}
       />
     </div>
@@ -107,7 +107,7 @@ export function SocialProveDivWhatTimeParagraph(
   return (
     <p
       style={{ textShadow: '0px 0px 1px #000000' }}
-      className="ml-1 text-sm font-medium text-white"
+      className="ml-1 text-sm font-medium text-brandBlue500"
       {...props}
     />
   )
@@ -118,7 +118,7 @@ type SocialProveClientNameParagraphProps = ComponentProps<'p'>
 export function SocialProveClientNameParagraph(
   props: SocialProveClientNameParagraphProps,
 ) {
-  return <p className="mt-0.5 text-lg font-bold text-white" {...props} />
+  return <p className="mt-0.5 text-lg font-bold text-brandBlue500" {...props} />
 }
 
 type SocialProveClientProveParagraphProps = ComponentProps<'p'>
@@ -126,5 +126,5 @@ type SocialProveClientProveParagraphProps = ComponentProps<'p'>
 export function SocialProveClientProveParagraph(
   props: SocialProveClientProveParagraphProps,
 ) {
-  return <p className="mt-4 font-medium text-white" {...props} />
+  return <p className="mt-4 font-medium text-brandBlue500" {...props} />
 }
