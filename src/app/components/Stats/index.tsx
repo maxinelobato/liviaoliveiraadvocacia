@@ -17,7 +17,7 @@ export function Stats() {
       subtitle: '+ de 2.000',
     },
     {
-      title: 'de Experiência em Jurídica Previdenciária',
+      title: 'de Experiência Jurídica Previdenciária',
       subtitle: '+ de 15 Anos',
     },
   ]
