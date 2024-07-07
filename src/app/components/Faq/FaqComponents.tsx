@@ -77,7 +77,9 @@ export function FaqSummary(props: FaqSummaryProps) {
 type FaqSummaryH1Props = ComponentProps<'h1'>
 
 export function FaqSummaryH1(props: FaqSummaryH1Props) {
-  return <h1 className="text-xl font-bold text-brandBlue500" {...props} />
+  return (
+    <h1 className="text-sm font-bold text-brandBlue500 sm:text-xl" {...props} />
+  )
 }
 
 type FaqSummarySpanIconProps = ComponentProps<'span'>

@@ -46,7 +46,10 @@ type AboutTextPropertyProps = ComponentProps<'div'>
 export function AboutTextProperty(props: AboutTextPropertyProps) {
   return (
     <div className="relative mx-auto flex w-full max-w-5xl flex-col items-start px-4 md:px-0 lg:max-w-6xl lg:px-8">
-      <div className="mb-8 lg:my-16 lg:max-w-lg lg:pr-5" {...props} />
+      <div
+        className="mb-8 p-4 text-center sm:p-8 sm:text-left lg:my-16 lg:max-w-lg lg:pr-5"
+        {...props}
+      />
     </div>
   )
 }
