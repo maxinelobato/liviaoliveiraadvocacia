@@ -15,7 +15,6 @@ import {
   SocialProveSpace,
   SocialProveSpan,
 } from './SocialProveComponents'
-import { IconStarSocialProve } from '../Icons/IconStarSocialProve'
 
 export function SocialProve() {
   const features = [
@@ -119,11 +118,11 @@ export function SocialProve() {
                 />
                 <SocialProveDiv>
                   <SocialProveDivWhatTime>
-                    <IconStarSocialProve icon={Star} />
-                    <IconStarSocialProve icon={Star} />
-                    <IconStarSocialProve icon={Star} />
-                    <IconStarSocialProve icon={Star} />
-                    <IconStarSocialProve icon={Star} />
+                    <Star size={20} weight="fill" />
+                    <Star size={20} weight="fill" />
+                    <Star size={20} weight="fill" />
+                    <Star size={20} weight="fill" />
+                    <Star size={20} weight="fill" />
                     <SocialProveDivWhatTimeParagraph>
                       {item.whatTime}
                     </SocialProveDivWhatTimeParagraph>

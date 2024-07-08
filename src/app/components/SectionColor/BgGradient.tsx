@@ -10,7 +10,7 @@ export function BgGradientColor(props: BgGradientColorProps) {
   return (
     <>
       <div
-        className="min-h-full bg-gradient-to-r from-brandBlue900 via-brandBlue500 to-brandBlue500/60"
+        className="bg-gradient-to-r from-brandBlue900 via-brandBlue500 to-brandBlue500/60"
         {...props}
       />
     </>

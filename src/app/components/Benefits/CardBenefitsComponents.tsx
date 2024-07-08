@@ -149,7 +149,7 @@ type CardBenefitsButtonTextProps = ComponentProps<'div'>
 export function CardBenefitsButtonText(props: CardBenefitsButtonTextProps) {
   return (
     <div
-      className="mr-3 text-center text-base font-medium uppercase text-white sm:text-left sm:text-lg"
+      className="mr-3 text-center font-medium uppercase text-white sm:text-left sm:text-base"
       {...props}
     />
   )

@@ -7,37 +7,37 @@ export function StarRating() {
         <span className="z-40 mr-1 text-base font-medium text-white">5,0</span>
         <Star
           weight="fill"
-          className="h-5 w-5"
+          size={18}
           style={{
-            filter: 'drop-shadow(1px 1px 1px #292929)',
+            filter: 'drop-shadow(1px 1px 1px #000)',
           }}
         />
         <Star
           weight="fill"
-          className="h-5 w-5"
+          size={18}
           style={{
-            filter: 'drop-shadow(1px 1px 1px #292929)',
+            filter: 'drop-shadow(1px 1px 1px #000)',
           }}
         />
         <Star
           weight="fill"
-          className="h-5 w-5"
+          size={18}
           style={{
-            filter: 'drop-shadow(1px 1px 1px #292929)',
+            filter: 'drop-shadow(1px 1px 1px #000)',
           }}
         />
         <Star
           weight="fill"
-          className="h-5 w-5"
+          size={18}
           style={{
-            filter: 'drop-shadow(1px 1px 1px #292929)',
+            filter: 'drop-shadow(1px 1px 1px #000)',
           }}
         />
         <Star
           weight="fill"
-          className="h-5 w-5"
+          size={18}
           style={{
-            filter: 'drop-shadow(1px 1px 1px #292929)',
+            filter: 'drop-shadow(1px 1px 1px #000)',
           }}
         />
         <span className="z-40 ml-1 mt-1 text-base font-medium text-white">
