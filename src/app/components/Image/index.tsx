@@ -8,6 +8,7 @@ export function ImgBgImage() {
     <Image
       src={BgImage}
       alt="Bg Image"
+      priority
       fill
       sizes="100vw"
       className="h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover"
