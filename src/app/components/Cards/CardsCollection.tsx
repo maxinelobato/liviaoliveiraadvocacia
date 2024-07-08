@@ -79,7 +79,6 @@ export function CardsCollection() {
       subtitle8: 'Salário maternidade',
       subtitle9: 'Pensão por morte',
       subtitle10: 'BPC-LOAS',
-      subtitle11: 'Auxílio-acidente',
     },
     {
       iconCard: (
@@ -173,12 +172,6 @@ export function CardsCollection() {
                 <CardPropertyIconList>{item.iconList2}</CardPropertyIconList>
                 <CardListDiv>
                   <CardListH1>{item.subtitle10}</CardListH1>
-                </CardListDiv>
-              </CardGridLi>
-              <CardGridLi>
-                <CardPropertyIconList>{item.iconList2}</CardPropertyIconList>
-                <CardListDiv>
-                  <CardListH1>{item.subtitle11}</CardListH1>
                 </CardListDiv>
               </CardGridLi>
               <CardGridLi>

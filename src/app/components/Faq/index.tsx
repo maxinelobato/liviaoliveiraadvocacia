@@ -67,7 +67,7 @@ export function Faq() {
       ),
       title:
         'Quais documentos são necessários para dar entrada na minha aposentadoria?',
-      desc: 'Você precisará de documentos como RG, CPF, comprovante de residência, carteira de trabalho, e extrato do CNIS, entre outros. Cada caso pode requerer documentação específica.',
+      desc: 'Você precisará de documentos como RG, CPF, comprovante de residência, carteira de trabalho, extrato do CNIS, entre outros. Cada caso pode requerer documentação específica.',
     },
     {
       icon: (
