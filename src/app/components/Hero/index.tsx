@@ -12,6 +12,7 @@ import {
   HeroSectionProperty,
   HeroRoot,
   HeroParagraphStrong,
+  HeroBgImage,
 } from './HeroComponents'
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 
@@ -19,7 +20,7 @@ export function Hero() {
   return (
     <>
       <HeroRoot>
-        <div className="h-auto w-full bg-hero-image bg-cover bg-fixed bg-center bg-no-repeat object-cover">
+        <HeroBgImage>
           <HeroGradient />
           <HeroSectionProperty>
             <HeroH1>advogada previdenciária</HeroH1>
@@ -41,7 +42,7 @@ export function Hero() {
             </ButtonHome>
             <StarRating />
           </HeroSectionProperty>
-        </div>
+        </HeroBgImage>
       </HeroRoot>
     </>
   )
