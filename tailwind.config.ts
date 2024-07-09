@@ -14,7 +14,7 @@ const config: Config = {
         sans: 'var(--font-montserrat)',
       },
       backgroundImage: {
-        'hero-img': "url('/bgImage.avif')",
+        'hero-image': "url('/bgImage.avif')",
       },
     },
   },

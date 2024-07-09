@@ -19,7 +19,7 @@ export function Hero() {
   return (
     <>
       <HeroRoot>
-        <div className="bg-hero-img h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover">
+        <div className="h-auto w-full bg-hero-image bg-cover bg-fixed bg-center bg-no-repeat object-cover">
           <HeroGradient />
           <HeroSectionProperty>
             <HeroH1>advogada previdenciária</HeroH1>
