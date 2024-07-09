@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
-// import { GoogleTagManager } from '@next/third-parties/google'
+
 const GTM_ID = 'GTM-KVN3F3HK'
 
 const montserrat = Montserrat({
@@ -24,7 +24,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <GoogleTagManager gtmId="GTM-KVN3F3HK" /> */}
       <Script id="google-tag-manager" strategy="worker">
         {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
