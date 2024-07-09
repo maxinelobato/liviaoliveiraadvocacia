@@ -9,7 +9,7 @@ type HeroBgImageProps = ComponentProps<'div'>
 export function HeroBgImage(props: HeroBgImageProps) {
   return (
     <div
-      className="bg-hero-image h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover"
+      className="bg-hero-img h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover"
       {...props}
     />
   )
