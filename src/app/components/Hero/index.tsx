@@ -5,7 +5,6 @@ import {
 } from '../Buttons/ButtonCta'
 import { StarRating } from '../StarRating'
 import {
-  HeroBgImage,
   HeroDivide,
   HeroH1,
   HeroGradient,
@@ -20,7 +19,7 @@ export function Hero() {
   return (
     <>
       <HeroRoot>
-        <HeroBgImage>
+        <div className="bg-hero-img h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover">
           <HeroGradient />
           <HeroSectionProperty>
             <HeroH1>advogada previdenciária</HeroH1>
@@ -42,7 +41,7 @@ export function Hero() {
             </ButtonHome>
             <StarRating />
           </HeroSectionProperty>
-        </HeroBgImage>
+        </div>
       </HeroRoot>
     </>
   )
