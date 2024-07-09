@@ -2,15 +2,6 @@ import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
 import './globals.css'
 import { GoogleTagManager } from '@next/third-parties/google'
-import { BgGradientColor } from './components/SectionColor/BgGradient'
-import { Hero } from './components/Hero'
-import { Card } from './components/Cards'
-import { Benefits } from './components/Benefits'
-import { About } from './components/About'
-import { Stats } from './components/Stats'
-import { SocialProve } from './components/SocialProve'
-import { Faq } from './components/Faq'
-import { Footer } from './components/Footer'
 
 const montserrat = Montserrat({
   subsets: ['latin', 'latin-ext'],
@@ -30,20 +21,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="sr">
+    <html lang="en">
       <GoogleTagManager gtmId="GTM-KVN3F3HK" />
       <body className={`${montserrat.variable} scroll-smooth antialiased`}>
-        <BgGradientColor>
-          <Hero />
-          <Card />
-          <Benefits />
-          <About />
-          <Stats />
-          <SocialProve />
-          <Faq />
-          {children}
-        </BgGradientColor>
-        <Footer />
+        {children}
       </body>
     </html>
   )

@@ -4,9 +4,20 @@ export interface HeroSectionProps {
   className: string
 }
 
-type HeroSectionBgImageProps = ComponentProps<'div'>
+type HeroBgImageProps = ComponentProps<'div'>
 
-export function HeroSectionBgImage(props: HeroSectionBgImageProps) {
+export function HeroBgImage(props: HeroBgImageProps) {
+  return (
+    <div
+      className="bg-hero-image h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover"
+      {...props}
+    />
+  )
+}
+
+type HeroGradientProps = ComponentProps<'div'>
+
+export function HeroGradient(props: HeroGradientProps) {
   return (
     <div
       className="absolute h-full w-full bg-gradient-to-r from-brandBlue900/80 from-30% to-brandBlue500/45 to-90% p-6 md:p-12 lg:px-16 lg:py-12"
@@ -15,9 +26,9 @@ export function HeroSectionBgImage(props: HeroSectionBgImageProps) {
   )
 }
 
-type HeroSectionRootProps = ComponentProps<'section'>
+type HeroRootProps = ComponentProps<'section'>
 
-export function HeroSectionRoot(props: HeroSectionRootProps) {
+export function HeroRoot(props: HeroRootProps) {
   return <section className="relative h-auto overflow-hidden" {...props} />
 }
 
@@ -33,9 +44,9 @@ export function HeroSectionProperty(props: HeroSectionPropertyProps) {
   )
 }
 
-type HeroSectionH1Props = ComponentProps<'h1'>
+type HeroH1Props = ComponentProps<'h1'>
 
-export function HeroSectionH1(props: HeroSectionH1Props) {
+export function HeroH1(props: HeroH1Props) {
   return (
     <h1
       style={{ textShadow: '0px 0px 2px #000000' }}
@@ -51,9 +62,9 @@ export function HeroSectionSpan(props: HeroSectionSpanProps) {
   return <span className="z-50 text-yellow-100 sm:block" {...props} />
 }
 
-type HeroSectionParagraphProps = ComponentProps<'p'>
+type HeroParagraphProps = ComponentProps<'p'>
 
-export function HeroSectionParagraph(props: HeroSectionParagraphProps) {
+export function HeroParagraph(props: HeroParagraphProps) {
   return (
     <p
       className="z-50 text-center text-sm font-semibold text-white/85 sm:text-left sm:text-lg md:block"
@@ -62,11 +73,9 @@ export function HeroSectionParagraph(props: HeroSectionParagraphProps) {
   )
 }
 
-type HeroSectionParagraphStrongProps = ComponentProps<'p'>
+type HeroParagraphStrongProps = ComponentProps<'p'>
 
-export function HeroSectionParagraphStrong(
-  props: HeroSectionParagraphStrongProps,
-) {
+export function HeroParagraphStrong(props: HeroParagraphStrongProps) {
   return (
     <p
       className="z-50 text-center text-sm font-extrabold text-yellow-100 sm:text-left sm:text-lg md:block"

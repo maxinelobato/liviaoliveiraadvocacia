@@ -4,7 +4,6 @@ import {
   ButtonHomeFlex,
   ButtonHomeText,
 } from '../Buttons/ButtonCta'
-import { ImgLivia } from '../Image'
 import {
   AboutArticle,
   AboutDivFlexItens,
@@ -18,6 +17,8 @@ import {
   AboutSection,
   AboutTextProperty,
 } from './AboutComponents'
+import Image from 'next/image'
+import AboutLivia from '../../../../public/liviaimg.avif'
 
 export function About() {
   return (
@@ -25,7 +26,17 @@ export function About() {
       <AboutSection>
         <AboutPropertySVGImg>
           <AboutSVG />
-          <ImgLivia />
+          <Image
+            alt="Imagem"
+            src={AboutLivia}
+            className="h-72 w-full rounded-xl object-cover shadow-lg md:h-96 lg:h-full lg:rounded-none lg:shadow-none"
+            loading="lazy"
+            width={1080}
+            height={1080}
+            sizes='"(max-width: 768px) 100vw,
+        (max-width: 1200px) 50vw,
+        33vw"'
+          />
         </AboutPropertySVGImg>
         <AboutTextProperty>
           <AboutParagraphabout>Sobre a Especialista</AboutParagraphabout>

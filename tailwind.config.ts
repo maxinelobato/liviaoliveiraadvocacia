@@ -13,6 +13,9 @@ const config: Config = {
       fontFamily: {
         sans: 'var(--font-montserrat)',
       },
+      backgroundImage: {
+        'hero-image': "url('/bgImage.avif')",
+      },
     },
   },
   plugins: [],

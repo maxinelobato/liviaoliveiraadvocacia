@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { HeroDivide } from '../Hero/HeroComponents'
 import {
   FooterAllRights,
@@ -21,7 +22,7 @@ import {
   FooterUl,
 } from './FooterComponents'
 import { At, WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
-import { ImgLogoLivia } from '../Image'
+import LogoLiviaHero from '../../../../public/logo-livia.png'
 
 export function Footer() {
   return (
@@ -38,7 +39,17 @@ export function Footer() {
           </FooterH1>
           <HeroDivide />
           <FooterImgProperty>
-            <ImgLogoLivia />
+            <Image
+              alt="Imagem"
+              src={LogoLiviaHero}
+              width={180}
+              height={100}
+              loading="lazy"
+              className="w-48 md:w-auto lg:w-52"
+              sizes='"(max-width: 768px) 100vw,
+          (max-width: 1200px) 50vw,
+          33vw"'
+            />
           </FooterImgProperty>
           <FooterParagraphLivia>Lívia Oliveira</FooterParagraphLivia>
           <FooterParagraphLiviaOab>OAB/MG 102.238</FooterParagraphLiviaOab>
