@@ -36,7 +36,7 @@ export function StatsH1(props: StatsH1Props) {
 type StatsSpanProps = ComponentProps<'h1'>
 
 export function StatsSpan(props: StatsSpanProps) {
-  return <span className="font-extrabold" {...props} />
+  return <span className="font-extrabold text-yellow-100" {...props} />
 }
 
 type StatsParagraphProps = ComponentProps<'p'>

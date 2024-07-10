@@ -13,7 +13,7 @@ export function Card() {
     <>
       <CardSpace>
         <CardH1>
-          Confira os serviços que <CardSpan>podemos lhe ajudar</CardSpan>
+          Confira mais serviços que <CardSpan>podemos lhe ajudar</CardSpan>
         </CardH1>
         <CardParagraph>
           Consulte nossos especialistas para uma avaliação

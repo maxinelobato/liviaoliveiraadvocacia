@@ -16,9 +16,9 @@ export default function Home() {
         <Hero />
         <Card />
         <Benefits />
-        <About />
-        <Stats />
         <SocialProve />
+        <Stats />
+        <About />
         <Faq />
         <ButtonFloatWttp />
       </BgGradientColor>

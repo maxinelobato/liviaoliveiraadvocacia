@@ -96,7 +96,7 @@ export function SocialProve() {
       <SocialProveSection>
         <SocialProveSpace>
           <SocialProveH1>
-            Leia as avaliações confiáveis{' '}
+            Leia as avaliações{' '}
             <SocialProveSpan>dos nossos clientes</SocialProveSpan>
           </SocialProveH1>
           <SocialProveParagraph>

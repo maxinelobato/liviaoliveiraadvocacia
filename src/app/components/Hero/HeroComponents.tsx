@@ -84,6 +84,12 @@ export function HeroParagraphStrong(props: HeroParagraphStrongProps) {
   )
 }
 
+type HeroStrongProps = ComponentProps<'strong'>
+
+export function HeroStrong(props: HeroStrongProps) {
+  return <strong className="font-extrabold text-yellow-100" {...props} />
+}
+
 type HeroImageProps = ComponentProps<'div'>
 
 export function HeroImage(props: HeroImageProps) {

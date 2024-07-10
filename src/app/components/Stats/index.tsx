@@ -10,15 +10,15 @@ export function Stats() {
   const features = [
     {
       title: 'Clientes Atendidos',
-      subtitle: '+ de 2.000',
+      subtitle: '2 Mil',
     },
     {
       title: 'Processos no Êxito',
-      subtitle: '+ de 2.000',
+      subtitle: '2 Mil',
     },
     {
       title: 'de Experiência Jurídica Previdenciária',
-      subtitle: '+ de 15 Anos',
+      subtitle: '15 Anos',
     },
   ]
 
