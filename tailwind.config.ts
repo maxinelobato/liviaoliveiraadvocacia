@@ -10,9 +10,6 @@ const config: Config = {
         brandBlue200: '#C8CBD2',
         brandWts: '#006400',
       },
-      fontFamily: {
-        sans: 'var(--font-montserrat)',
-      },
       backgroundImage: {
         'hero-image': "url('/bgImage.avif')",
       },

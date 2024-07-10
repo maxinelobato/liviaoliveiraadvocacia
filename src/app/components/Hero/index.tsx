@@ -23,7 +23,7 @@ export function Hero() {
         <HeroBgImage>
           <HeroGradient />
           <HeroSectionProperty>
-            <HeroH1>advogada previdenciária</HeroH1>
+            <HeroH1>Advogada previdenciária</HeroH1>
             <HeroParagraph>Precisa de ajuda com INSS?</HeroParagraph>
             <HeroParagraphStrong>Eu posso te ajudar</HeroParagraphStrong>
             <HeroParagraph>
