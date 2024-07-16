@@ -9,7 +9,7 @@ type HeroBgImageProps = ComponentProps<'div'>
 export function HeroBgImage(props: HeroBgImageProps) {
   return (
     <div
-      className="md:hero-image-desktop lg:hero-image-desktop hero bg-hero-image-mobile sm:bg-hero-image-desktop h-auto min-h-min w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover sm:bg-cover md:bg-cover lg:bg-cover"
+      className="h-auto·min-h-min·w-full·bg-hero-image-mobile·bg-cover·bg-fixed·bg-center·bg-no-repeat·object-cover·sm:bg-hero-image-desktop"
       {...props}
     />
   )
