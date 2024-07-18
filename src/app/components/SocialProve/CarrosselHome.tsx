@@ -9,7 +9,6 @@ import {
   CarrosselColumnFillBalance,
   CarrosselDiv,
   CarrosselDivWhatTime,
-  CarrosselDivWhatTimeParagraph,
   CarrosselFlexItens,
   CarrosselSection,
 } from './CarrosselComponents'
@@ -119,9 +118,6 @@ export function CarrosselHome() {
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
-                      <CarrosselDivWhatTimeParagraph>
-                        {features.whatTime1}
-                      </CarrosselDivWhatTimeParagraph>
                     </CarrosselDivWhatTime>
                     <CarrosselClientNameParagraph>
                       {features.clientName1}
@@ -149,9 +145,6 @@ export function CarrosselHome() {
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
-                      <CarrosselDivWhatTimeParagraph>
-                        {features.whatTime2}
-                      </CarrosselDivWhatTimeParagraph>
                     </CarrosselDivWhatTime>
                     <CarrosselClientNameParagraph>
                       {features.clientName2}
@@ -179,9 +172,6 @@ export function CarrosselHome() {
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
-                      <CarrosselDivWhatTimeParagraph>
-                        {features.whatTime3}
-                      </CarrosselDivWhatTimeParagraph>
                     </CarrosselDivWhatTime>
                     <CarrosselClientNameParagraph>
                       {features.clientName3}
@@ -209,9 +199,6 @@ export function CarrosselHome() {
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
-                      <CarrosselDivWhatTimeParagraph>
-                        {features.whatTime4}
-                      </CarrosselDivWhatTimeParagraph>
                     </CarrosselDivWhatTime>
                     <CarrosselClientNameParagraph>
                       {features.clientName4}
@@ -239,9 +226,6 @@ export function CarrosselHome() {
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
-                      <CarrosselDivWhatTimeParagraph>
-                        {features.whatTime5}
-                      </CarrosselDivWhatTimeParagraph>
                     </CarrosselDivWhatTime>
                     <CarrosselClientNameParagraph>
                       {features.clientName5}
@@ -269,9 +253,6 @@ export function CarrosselHome() {
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
-                      <CarrosselDivWhatTimeParagraph>
-                        {features.whatTime6}
-                      </CarrosselDivWhatTimeParagraph>
                     </CarrosselDivWhatTime>
                     <CarrosselClientNameParagraph>
                       {features.clientName6}
@@ -299,9 +280,6 @@ export function CarrosselHome() {
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
-                      <CarrosselDivWhatTimeParagraph>
-                        {features.whatTime7}
-                      </CarrosselDivWhatTimeParagraph>
                     </CarrosselDivWhatTime>
                     <CarrosselClientNameParagraph>
                       {features.clientName7}
@@ -329,9 +307,6 @@ export function CarrosselHome() {
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
-                      <CarrosselDivWhatTimeParagraph>
-                        {features.whatTime8}
-                      </CarrosselDivWhatTimeParagraph>
                     </CarrosselDivWhatTime>
                     <CarrosselClientNameParagraph>
                       {features.clientName8}
@@ -359,9 +334,6 @@ export function CarrosselHome() {
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
                       <Star size={20} weight="fill" />
-                      <CarrosselDivWhatTimeParagraph>
-                        {features.whatTime9}
-                      </CarrosselDivWhatTimeParagraph>
                     </CarrosselDivWhatTime>
                     <CarrosselClientNameParagraph>
                       {features.clientName9}

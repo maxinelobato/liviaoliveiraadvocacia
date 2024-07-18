@@ -10,7 +10,7 @@ export function CarrosselSection(props: CarrosselSectionProps) {
   return (
     <section>
       <div
-        className="mx-auto max-w-2xl items-center justify-center px-9 py-16 pt-2"
+        className="mx-auto items-center justify-center px-9 py-16 pt-2"
         {...props}
       />
     </section>
@@ -52,7 +52,7 @@ export function CarrosselDivWhatTime(props: CarrosselDivWhatTimeProps) {
 type CarrosselFlexItensProps = ComponentProps<'div'>
 
 export function CarrosselFlexItens(props: CarrosselFlexItensProps) {
-  return <div className="flex items-center gap-4" {...props} />
+  return <div className="flex items-center justify-center gap-4" {...props} />
 }
 
 type CarrosselDivWhatTimeParagraphProps = ComponentProps<'p'>
@@ -80,7 +80,12 @@ type CarrosselClientProveParagraphProps = ComponentProps<'p'>
 export function CarrosselClientProveParagraph(
   props: CarrosselClientProveParagraphProps,
 ) {
-  return <p className="mt-4 font-medium text-brandBlue500" {...props} />
+  return (
+    <p
+      className="mt-4 text-center text-sm font-medium text-brandBlue500"
+      {...props}
+    />
+  )
 }
 
 type CarrosselClientNameParagraphProps = ComponentProps<'p'>
@@ -88,14 +93,19 @@ type CarrosselClientNameParagraphProps = ComponentProps<'p'>
 export function CarrosselClientNameParagraph(
   props: CarrosselClientNameParagraphProps,
 ) {
-  return <p className="mt-0.5 text-lg font-bold text-brandBlue500" {...props} />
+  return (
+    <p
+      className="mt-0.5 text-sm font-bold text-brandBlue500 sm:text-lg"
+      {...props}
+    />
+  )
 }
 
 type CarrosselBlockMapIdxProps = ComponentProps<'blockquote'>
 
 export function CarrosselBlockMapIdx(props: CarrosselBlockMapIdxProps) {
   return (
-    <div className="mb-8 sm:break-inside-avoid">
+    <div className="mb-8">
       <blockquote
         className="rounded-lg bg-yellow-100 p-6 shadow-lg sm:p-8"
         {...props}
