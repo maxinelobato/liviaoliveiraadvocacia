@@ -10,7 +10,7 @@ export function CarrosselSection(props: CarrosselSectionProps) {
   return (
     <section>
       <div
-        className="mx-auto items-center justify-center px-9 py-16 pt-2"
+        className="mx-auto max-w-4xl items-center justify-center px-4 py-16 pt-2 sm:max-w-lg"
         {...props}
       />
     </section>

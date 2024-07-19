@@ -9,7 +9,7 @@ type SocialProveSectionProps = ComponentProps<'div'>
 export function SocialProveSection(props: SocialProveSectionProps) {
   return (
     <section>
-      <div className="mx-auto max-w-6xl px-9 py-16 pt-2" {...props} />
+      <div className="mx-auto max-w-6xl px-4 py-16 pt-2" {...props} />
     </section>
   )
 }
