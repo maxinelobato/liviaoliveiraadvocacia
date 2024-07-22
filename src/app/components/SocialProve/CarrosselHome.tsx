@@ -108,7 +108,7 @@ export function CarrosselHome() {
                     width={45}
                     height={45}
                     src={features.imgURL1}
-                    loading="lazy"
+                    priority
                     className="size-14 rounded-full object-cover"
                   />
                   <CarrosselDiv>
@@ -137,7 +137,7 @@ export function CarrosselHome() {
                     width={45}
                     height={45}
                     src={features.imgURL2}
-                    loading="lazy"
+                    priority
                     className="size-14 rounded-full object-cover"
                   />
                   <CarrosselDiv>
@@ -166,7 +166,7 @@ export function CarrosselHome() {
                     width={45}
                     height={45}
                     src={features.imgURL3}
-                    loading="lazy"
+                    priority
                     className="size-14 rounded-full object-cover"
                   />
                   <CarrosselDiv>
@@ -195,7 +195,7 @@ export function CarrosselHome() {
                     width={45}
                     height={45}
                     src={features.imgURL4}
-                    loading="lazy"
+                    priority
                     className="size-14 rounded-full object-cover"
                   />
                   <CarrosselDiv>
@@ -224,7 +224,7 @@ export function CarrosselHome() {
                     width={45}
                     height={45}
                     src={features.imgURL5}
-                    loading="lazy"
+                    priority
                     className="size-14 rounded-full object-cover"
                   />
                   <CarrosselDiv>
@@ -253,7 +253,7 @@ export function CarrosselHome() {
                     width={45}
                     height={45}
                     src={features.imgURL6}
-                    loading="lazy"
+                    priority
                     className="size-14 rounded-full object-cover"
                   />
                   <CarrosselDiv>
@@ -282,7 +282,7 @@ export function CarrosselHome() {
                     width={45}
                     height={45}
                     src={features.imgURL7}
-                    loading="lazy"
+                    priority
                     className="size-14 rounded-full object-cover"
                   />
                   <CarrosselDiv>
@@ -311,7 +311,7 @@ export function CarrosselHome() {
                     width={45}
                     height={45}
                     src={features.imgURL8}
-                    loading="lazy"
+                    priority
                     className="size-14 rounded-full object-cover"
                   />
                   <CarrosselDiv>
@@ -340,7 +340,7 @@ export function CarrosselHome() {
                     width={45}
                     height={45}
                     src={features.imgURL9}
-                    loading="lazy"
+                    priority
                     className="size-14 rounded-full object-cover"
                   />
                   <CarrosselDiv>

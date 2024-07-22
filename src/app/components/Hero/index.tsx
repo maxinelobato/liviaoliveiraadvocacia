@@ -27,7 +27,8 @@ export function Hero() {
         <Image
           src={imgDesktop}
           alt="BgImage"
-          sizes="100vw"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          placeholder="empty"
           priority
           fill
           className="h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover sm:bg-[imgDesktop]"
@@ -35,7 +36,8 @@ export function Hero() {
         <Image
           src={imgMobile}
           alt="BgImage"
-          sizes="100vw"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          placeholder="empty"
           priority
           fill
           className="h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover sm:hidden sm:bg-[imgMobile]"
