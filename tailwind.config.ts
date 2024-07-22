@@ -11,10 +11,10 @@ const config: Config = {
         brandBlue200: '#C8CBD2',
         brandWts: '#006400',
       },
-      backgroundImage: {
-        'hero-image-desktop': "url('/bgImageDesktop.avif')",
-        'hero-image-mobile': "url('/bgImageMobile.avif')",
-      },
+      // backgroundImage: {
+      //   'hero-image-desktop': "url('/bgImageDesktop.avif')",
+      //   'hero-image-mobile': "url('/bgImageMobile.avif')",
+      // },
     },
   },
   plugins: [daisyui],
