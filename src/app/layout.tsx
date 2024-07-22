@@ -2,8 +2,6 @@ import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
-import { SpeedInsights } from '@vercel/speed-insights/next'
-import { Analytics } from '@vercel/analytics/react'
 
 const GTM_ID = 'GTM-KVN3F3HK'
 
@@ -42,8 +40,6 @@ export default function RootLayout({
           }}
         />
         {children}
-        <SpeedInsights />
-        <Analytics />
       </body>
     </html>
   )
