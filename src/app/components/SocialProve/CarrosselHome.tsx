@@ -18,7 +18,7 @@ import './swiper.css'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
-import { Navigation, Autoplay } from 'swiper/modules'
+import { Navigation } from 'swiper/modules'
 
 export function CarrosselHome() {
   const features = {
@@ -94,11 +94,7 @@ export function CarrosselHome() {
             <Swiper
               autoHeight={true}
               navigation={true}
-              autoplay={{
-                delay: 2200,
-                disableOnInteraction: false,
-              }}
-              modules={[Navigation, Autoplay]}
+              modules={[Navigation]}
               className="mySwiper"
             >
               <SwiperSlide>
