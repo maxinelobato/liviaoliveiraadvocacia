@@ -1,4 +1,3 @@
-import daisyui from 'daisyui'
 import type { Config } from 'tailwindcss'
 const config: Config = {
   content: ['./src/app/**/*.tsx', './components/**/*.tsx'],
@@ -11,12 +10,8 @@ const config: Config = {
         brandBlue200: '#C8CBD2',
         brandWts: '#006400',
       },
-      // backgroundImage: {
-      //   'hero-image-desktop': "url('/bgImageDesktop.avif')",
-      //   'hero-image-mobile': "url('/bgImageMobile.avif')",
-      // },
     },
   },
-  plugins: [daisyui],
+  plugins: [],
 }
 export default config
