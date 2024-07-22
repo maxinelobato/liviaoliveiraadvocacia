@@ -18,7 +18,7 @@ import './swiper.css'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
-import { Navigation } from 'swiper/modules'
+import { Navigation, Autoplay } from 'swiper/modules'
 
 export function CarrosselHome() {
   const features = {
@@ -90,14 +90,18 @@ export function CarrosselHome() {
     <>
       <CarrosselSection>
         <CarrosselColumnFillBalance>
-          <CarrosselBlockMapIdx>
-            <Swiper
-              autoHeight={true}
-              navigation={true}
-              modules={[Navigation]}
-              className="mySwiper"
-            >
-              <SwiperSlide>
+          <Swiper
+            autoHeight={true}
+            navigation={true}
+            autoplay={{
+              delay: 2200,
+              disableOnInteraction: false,
+            }}
+            modules={[Navigation, Autoplay]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <CarrosselBlockMapIdx>
                 <CarrosselFlexItens>
                   <Image
                     alt="Clients"
@@ -123,8 +127,10 @@ export function CarrosselHome() {
                 <CarrosselClientProveParagraph>
                   {features.clientProve1}
                 </CarrosselClientProveParagraph>
-              </SwiperSlide>
-              <SwiperSlide>
+              </CarrosselBlockMapIdx>
+            </SwiperSlide>
+            <SwiperSlide>
+              <CarrosselBlockMapIdx>
                 <CarrosselFlexItens>
                   <Image
                     alt="Clients"
@@ -150,8 +156,10 @@ export function CarrosselHome() {
                 <CarrosselClientProveParagraph>
                   {features.clientProve2}
                 </CarrosselClientProveParagraph>
-              </SwiperSlide>
-              <SwiperSlide>
+              </CarrosselBlockMapIdx>
+            </SwiperSlide>
+            <SwiperSlide>
+              <CarrosselBlockMapIdx>
                 <CarrosselFlexItens>
                   <Image
                     alt="Clients"
@@ -177,8 +185,10 @@ export function CarrosselHome() {
                 <CarrosselClientProveParagraph>
                   {features.clientProve3}
                 </CarrosselClientProveParagraph>
-              </SwiperSlide>
-              <SwiperSlide>
+              </CarrosselBlockMapIdx>
+            </SwiperSlide>
+            <SwiperSlide>
+              <CarrosselBlockMapIdx>
                 <CarrosselFlexItens>
                   <Image
                     alt="Clients"
@@ -204,8 +214,10 @@ export function CarrosselHome() {
                 <CarrosselClientProveParagraph>
                   {features.clientProve4}
                 </CarrosselClientProveParagraph>
-              </SwiperSlide>
-              <SwiperSlide>
+              </CarrosselBlockMapIdx>
+            </SwiperSlide>
+            <SwiperSlide>
+              <CarrosselBlockMapIdx>
                 <CarrosselFlexItens>
                   <Image
                     alt="Clients"
@@ -231,8 +243,10 @@ export function CarrosselHome() {
                 <CarrosselClientProveParagraph>
                   {features.clientProve5}
                 </CarrosselClientProveParagraph>
-              </SwiperSlide>
-              <SwiperSlide>
+              </CarrosselBlockMapIdx>
+            </SwiperSlide>
+            <SwiperSlide>
+              <CarrosselBlockMapIdx>
                 <CarrosselFlexItens>
                   <Image
                     alt="Clients"
@@ -258,8 +272,10 @@ export function CarrosselHome() {
                 <CarrosselClientProveParagraph>
                   {features.clientProve6}
                 </CarrosselClientProveParagraph>
-              </SwiperSlide>
-              <SwiperSlide>
+              </CarrosselBlockMapIdx>
+            </SwiperSlide>
+            <SwiperSlide>
+              <CarrosselBlockMapIdx>
                 <CarrosselFlexItens>
                   <Image
                     alt="Clients"
@@ -285,8 +301,10 @@ export function CarrosselHome() {
                 <CarrosselClientProveParagraph>
                   {features.clientProve7}
                 </CarrosselClientProveParagraph>
-              </SwiperSlide>
-              <SwiperSlide>
+              </CarrosselBlockMapIdx>
+            </SwiperSlide>
+            <SwiperSlide>
+              <CarrosselBlockMapIdx>
                 <CarrosselFlexItens>
                   <Image
                     alt="Clients"
@@ -312,8 +330,10 @@ export function CarrosselHome() {
                 <CarrosselClientProveParagraph>
                   {features.clientProve8}
                 </CarrosselClientProveParagraph>
-              </SwiperSlide>
-              <SwiperSlide>
+              </CarrosselBlockMapIdx>
+            </SwiperSlide>
+            <SwiperSlide>
+              <CarrosselBlockMapIdx>
                 <CarrosselFlexItens>
                   <Image
                     alt="Clients"
@@ -339,9 +359,9 @@ export function CarrosselHome() {
                 <CarrosselClientProveParagraph>
                   {features.clientProve9}
                 </CarrosselClientProveParagraph>
-              </SwiperSlide>
-            </Swiper>
-          </CarrosselBlockMapIdx>
+              </CarrosselBlockMapIdx>
+            </SwiperSlide>
+          </Swiper>
         </CarrosselColumnFillBalance>
       </CarrosselSection>
     </>

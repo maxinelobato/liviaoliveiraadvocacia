@@ -105,11 +105,9 @@ type CarrosselBlockMapIdxProps = ComponentProps<'blockquote'>
 
 export function CarrosselBlockMapIdx(props: CarrosselBlockMapIdxProps) {
   return (
-    <div className="mb-8">
-      <blockquote
-        className="rounded-lg bg-yellow-100 p-6 shadow-lg sm:p-8"
-        {...props}
-      />
-    </div>
+    <blockquote
+      className="justify-center rounded-lg bg-yellow-100 p-6 shadow-lg sm:p-8"
+      {...props}
+    />
   )
 }
