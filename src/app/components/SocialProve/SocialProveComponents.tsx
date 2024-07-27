@@ -63,42 +63,6 @@ export function SocialProveColumnFillBalance(
   )
 }
 
-type SocialProveBlockMapIdxProps = ComponentProps<'blockquote'>
-
-export function SocialProveBlockMapIdx(props: SocialProveBlockMapIdxProps) {
-  return (
-    <div className="mb-8 sm:break-inside-avoid">
-      <blockquote
-        className="rounded-lg bg-yellow-100 p-6 shadow-lg sm:p-8"
-        {...props}
-      />
-    </div>
-  )
-}
-
-type SocialProveFlexItensProps = ComponentProps<'div'>
-
-export function SocialProveFlexItens(props: SocialProveFlexItensProps) {
-  return <div className="flex items-center gap-4" {...props} />
-}
-
-type SocialProveDivProps = ComponentProps<'div'>
-
-export function SocialProveDiv(props: SocialProveDivProps) {
-  return <div {...props} />
-}
-
-type SocialProveDivWhatTimeProps = ComponentProps<'div'>
-
-export function SocialProveDivWhatTime(props: SocialProveDivWhatTimeProps) {
-  return (
-    <div
-      className="flex items-center justify-center gap-0.5 text-yellow-500"
-      {...props}
-    />
-  )
-}
-
 type SocialProveDivWhatTimeParagraphProps = ComponentProps<'p'>
 
 export function SocialProveDivWhatTimeParagraph(
@@ -113,18 +77,110 @@ export function SocialProveDivWhatTimeParagraph(
   )
 }
 
-type SocialProveClientNameParagraphProps = ComponentProps<'p'>
+type CarrosselSectionProps = ComponentProps<'div'>
 
-export function SocialProveClientNameParagraph(
-  props: SocialProveClientNameParagraphProps,
-) {
-  return <p className="mt-0.5 text-lg font-bold text-brandBlue500" {...props} />
+export function CarrosselSection(props: CarrosselSectionProps) {
+  return (
+    <section>
+      <div
+        className="mx-auto max-w-4xl items-center justify-center px-4 py-16 pt-2 sm:max-w-lg"
+        {...props}
+      />
+    </section>
+  )
 }
 
-type SocialProveClientProveParagraphProps = ComponentProps<'p'>
+type CarrosselSocialProveProps = ComponentProps<'blockquote'>
 
-export function SocialProveClientProveParagraph(
-  props: SocialProveClientProveParagraphProps,
+export function CarrosselSocialProve(props: CarrosselSocialProveProps) {
+  return (
+    <div className="mb-8">
+      <blockquote
+        className="rounded-lg bg-yellow-100 p-6 shadow-lg sm:p-8"
+        {...props}
+      />
+    </div>
+  )
+}
+
+type CarrosselColumnFillBalanceProps = ComponentProps<'div'>
+
+export function CarrosselColumnFillBalance(
+  props: CarrosselColumnFillBalanceProps,
 ) {
-  return <p className="mt-4 font-medium text-brandBlue500" {...props} />
+  return <div className="mt-8 columns-1 sm:gap-6 lg:gap-8" {...props} />
+}
+
+type CarrosselDivWhatTimeProps = ComponentProps<'div'>
+
+export function CarrosselDivWhatTime(props: CarrosselDivWhatTimeProps) {
+  return (
+    <div
+      className="flex items-center justify-center gap-0.5 text-yellow-500"
+      {...props}
+    />
+  )
+}
+
+type CarrosselFlexItensProps = ComponentProps<'div'>
+
+export function CarrosselFlexItens(props: CarrosselFlexItensProps) {
+  return <div className="flex items-center justify-center gap-4" {...props} />
+}
+
+type CarrosselDivWhatTimeParagraphProps = ComponentProps<'p'>
+
+export function CarrosselDivWhatTimeParagraph(
+  props: CarrosselDivWhatTimeParagraphProps,
+) {
+  return (
+    <p
+      style={{ textShadow: '0px 0px 1px #000000' }}
+      className="ml-1 text-sm font-medium text-brandBlue500"
+      {...props}
+    />
+  )
+}
+
+type CarrosselDivProps = ComponentProps<'div'>
+
+export function CarrosselDiv(props: CarrosselDivProps) {
+  return <div {...props} />
+}
+
+type CarrosselClientProveParagraphProps = ComponentProps<'p'>
+
+export function CarrosselClientProveParagraph(
+  props: CarrosselClientProveParagraphProps,
+) {
+  return (
+    <p
+      className="mt-4 text-center text-sm font-medium text-brandBlue500"
+      {...props}
+    />
+  )
+}
+
+type CarrosselClientNameParagraphProps = ComponentProps<'p'>
+
+export function CarrosselClientNameParagraph(
+  props: CarrosselClientNameParagraphProps,
+) {
+  return (
+    <p
+      className="mt-0.5 text-sm font-bold text-brandBlue500 sm:text-lg"
+      {...props}
+    />
+  )
+}
+
+type CarrosselBlockMapIdxProps = ComponentProps<'blockquote'>
+
+export function CarrosselBlockMapIdx(props: CarrosselBlockMapIdxProps) {
+  return (
+    <blockquote
+      className="justify-center rounded-lg bg-yellow-100 p-6 shadow-lg sm:p-8"
+      {...props}
+    />
+  )
 }

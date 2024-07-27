@@ -1,14 +1,15 @@
 import type { Metadata } from 'next'
-import { Montserrat } from 'next/font/google'
+import { Montserrat as FontSans } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
 
+import { cn } from '@/lib/utils'
+
 const GTM_ID = 'GTM-KVN3F3HK'
 
-const montserrat = Montserrat({
+const fontSans = FontSans({
   subsets: ['latin'],
-  display: 'swap',
-  preload: true,
+  variable: '--font-sans',
 })
 
 export const metadata: Metadata = {
@@ -33,7 +34,9 @@ export default function RootLayout({
         })(window,document,'script','dataLayer','${GTM_ID}');
         `}
       </Script>
-      <body className={`${montserrat.className} scroll-smooth antialiased`}>
+      <body
+        className={cn('min-h-screen font-sans antialiased', fontSans.variable)}
+      >
         <noscript
           dangerouslySetInnerHTML={{
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
