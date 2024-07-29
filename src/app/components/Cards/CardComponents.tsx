@@ -7,7 +7,7 @@ export interface CardProps {
 type CardSpaceProps = ComponentProps<'section'>
 
 export function CardSpace(props: CardSpaceProps) {
-  return <section className="px-2 py-10" {...props} />
+  return <section className="px-2 py-4" {...props} />
 }
 
 type CardH1Props = ComponentProps<'h1'>

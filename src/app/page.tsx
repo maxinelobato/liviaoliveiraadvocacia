@@ -14,10 +14,10 @@ export default function Home() {
     <>
       <BgGradientColor>
         <Hero />
+        <Stats />
         <Card />
         <Benefits />
         <SocialProve />
-        <Stats />
         <About />
         <Faq />
         <ButtonFloatWttp />

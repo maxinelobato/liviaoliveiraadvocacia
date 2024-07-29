@@ -23,7 +23,6 @@ export function Hero() {
   return (
     <>
       <HeroRoot>
-        {/* <HeroBgImage> */}
         <Image
           src={imgDesktop}
           alt="BgImage"
@@ -67,7 +66,6 @@ export function Hero() {
           </ButtonHome>
           <StarRating />
         </HeroSectionProperty>
-        {/* </HeroBgImage> */}
       </HeroRoot>
     </>
   )
