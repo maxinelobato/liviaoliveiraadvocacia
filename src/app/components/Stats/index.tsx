@@ -12,12 +12,12 @@ export function Stats() {
     {
       icon: <Smiley size={44} weight="fill" />,
       title: 'Clientes Atendidos',
-      subtitle: '2.000',
+      subtitle: '2 Mil',
     },
     {
       icon: <Note size={44} weight="fill" />,
       title: 'Processos no Êxito',
-      subtitle: '2.000',
+      subtitle: '2 Mil',
     },
     {
       icon: <Star size={44} weight="fill" />,
@@ -38,8 +38,8 @@ export function Stats() {
             São mais de 15 anos de experiência na área Previdenciária
           </StatsParagraph>
         </StatsProperty> */}
-        <div className="mt-10 sm:mt-0">
-          <dl className="grid grid-cols-1 gap-4 rounded-lg bg-brandBlue900/15 p-8 px-4 py-8 shadow-lg shadow-yellow-100 backdrop-blur-md sm:grid-cols-3">
+        <div className="mt-16 sm:mt-8">
+          <dl className="grid grid-cols-1 gap-4 rounded-lg bg-brandBlue900/15 p-8 px-4 py-8 shadow-shadowMax backdrop-blur-md sm:grid-cols-3">
             {features.map((item, idx) => (
               <div key={idx} className="flex flex-col text-center">
                 <dt className="mx-auto justify-center pb-4">

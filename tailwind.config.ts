@@ -20,6 +20,9 @@ const config = {
         brandBlue200: '#C8CBD2',
         brandWts: '#006400',
       },
+      boxShadow: {
+        shadowMax: '-1px 2px 23px 4px rgba(254, 249, 195, 0.8)',
+      },
       fontFamily: {
         sans: ['var(--font-sans)', ...fontFamily.sans],
       },
